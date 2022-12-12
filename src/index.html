@@ -24,7 +24,24 @@
 
   <div id="sales-manager" hidden>
     <h1>Welcome, Sales Manager!</h1>
+    <div id="manager-dashboard">
+        <button onclick="openRepCreationPage()">Create Sales Representative</button><br><br>
+    </div>
+    <div id="rep-create" hidden>
+        <label>Name:</label>
+        <input id="r-create-name"><br><br>
+        <label>Phone Number:</label>
+        <input id="r-create-phone"><br><br>
+        <label>Region:</label>
+        <input id="r-create-region"><br><br>
+        <label>Username:</label>
+        <input id="r-create-uname"><br><br>
+        <label>Password:</label>
+        <input id="r-create-pword"><br><br>
+        <button onclick="createRep()">Create Sales Representative</button><br><br>
+    </div>
   </div>
   <script src="main.js"></script>
+  <script src="manager-functions.js"></script>
 </body>
 </html>
