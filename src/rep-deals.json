@@ -1,0 +1,20 @@
+{
+    "sample": {
+        "business_name": "",
+        "contact_info": [
+            {
+                "name": "",
+                "address": "",
+                "phone": ""
+            }
+        ],
+        "deal_size": "",
+        "close_date": "",
+        "stage_of_opportunity": ""
+    },
+    "deals": {
+        "": [
+            
+        ]
+    }
+}
